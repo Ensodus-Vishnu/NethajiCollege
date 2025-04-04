@@ -1,0 +1,257 @@
+.mainlogo img {border-radius: 50%;
+width: 100 px;
+height:95px;}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:justify;
+    padding: 20px;
+}
+
+
+.overlay p {color: aliceblue;
+font-size: 18px;
+font-weight:600;}
+
+@media (max-width: 768px) {
+    .overlay {
+        width: 100%;
+        height: 50%;
+        top: auto;
+        bottom: 0;
+        position: static;
+        background: white;
+        color: black;
+        padding: 15px;
+        text-align: left;
+        font-size: 16px;
+    }
+    .overlay p {font-size: 16px;
+    color: black;
+    font-family: sans-serif;}
+}
+
+
+
+/*number carousal*/
+
+.down-content h4 {margin: 5px 0px;
+    color: #f5a425;
+    font-weight: 700;
+    font-size: 40px;}
+
+/*
+
+//.owl-service-item .item {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 330px; /* Default width
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+}
+.icon img {
+    width: 60px;
+    height: auto;
+}
+
+.count-area-content {
+    margin-top: 15px;
+}
+
+.count-digit {
+    font-size: 37px;
+    font-weight: bold;
+    color: #ead6d6;
+}
+
+.count-title {
+    font-size: 25px;
+    color: #e6d5d5;
+}
+
+/* Responsive Design 
+@media (max-width: 1024px) {
+    .owl-service-item.item {
+        width: 348px; /* Adjust width for tablets 
+    }
+}
+
+@media (max-width: 768px) {
+    .owl-service-item .item {
+        width: 100%; /* Full width on mobile 
+    }
+    .icon img {
+        width: 50px;
+    }
+    .count-digit {
+        font-size: 37px;
+    }
+    .count-title {
+        font-size: 14px;
+    }
+}*/
+
+/* location */
+.location h3 {text-align: center;}
+
+
+
+/* Make the Google Map container responsive */
+.googlemap {
+    position: relative;
+    width: 500px;
+    height: 380px;
+    margin: 0 auto; /* Center alignment */
+}
+
+.googlemap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 8px;
+   
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+    .googlemap {
+        width: 100%;
+        height: 200px; /* Adjust height for smaller screens */
+    }
+}
+
+ 
+
+
+
+/* Courses Page */
+
+.course-text h6 {font-weight: 700;
+color: #468dd9;}
+
+
+.form-button button {background-color: #1e84bbdb;
+padding: 8px;
+border-radius: 30px;
+border-color: rgb(153, 168, 181);
+width: auto;}
+
+.form-button p {color: aliceblue;
+font-weight: 700;}
+
+
+
+/* dropdown */
+
+.dropdown {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+   
+    
+}
+
+.dropdown-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(38, 103, 135);
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-btn:hover {
+    background-color: #efeef3;
+    color: #468dd9;
+    font-weight: bold;
+    border-color: #468dd9;
+}
+
+.plus-icon {
+    transition: transform 0.3s ease;
+    font-size: 18px;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: white;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+  
+
+/* courses table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #468dd9;
+    color: white;
+}
+@media (max-width: 600px) {
+    table, th, td {
+        font-size: 12px;
+    }
+}
+
+
+
+/* facilities */
+
+.custom-container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+.text-content {
+    padding: 40px;
+    color: #efeef3;
+}
+.image-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;}
